@@ -49,3 +49,9 @@ print('\nPop')
 daftar_buku.pop()
 for buku in range(0, len(daftar_buku)):
     print(daftar_buku[buku])
+
+print('\nPop -1')
+daftar_buku = ['1. Seven Habits', '2. How to Influence People', '3. First Things First', '4. 4DX']
+daftar_buku.pop(-4)
+for buku in range(0, len(daftar_buku)):
+    print(daftar_buku[buku])
